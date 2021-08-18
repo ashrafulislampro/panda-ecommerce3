@@ -1,0 +1,72 @@
+body{
+ margin: 0;
+ padding: 0;
+}
+main{
+          width: 1200px;
+          max-width: 90%;
+          margin: 0 auto;
+}
+section{
+          margin-bottom: 100px;
+}
+.orange-bg{
+          background-color: #fceae8;
+          border-radius: 10px;
+}
+
+.content{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 10px;
+}
+.content img{
+          padding-left: 30px;
+          width: 150px;
+}
+
+.bg-color1, .bg-color2, .bg-color3{
+          width: 300px;
+          padding-left: 20px;
+          border-radius: 10px;
+          color: white;
+}
+.bg-color1{
+          background-color: #FFAA2F;
+}
+.bg-color2{
+          background-color: #E36AD3;
+}
+.bg-color3{
+          background-color: #4300F8;
+} 
+.btn{
+          background-color: #FF3685;
+          color: white;
+}
+.card{
+          border-style: none;
+          box-shadow: 5px 5px 5px lightgrey, -5px -5px 5px lightgrey;
+}
+#email{
+          width: 400px;
+          height: 40px;
+          font-size: 20px;
+          border-style: none;
+          border-radius: 2px;
+}
+#submit{
+          width: 100px;
+          height: 40px;
+          font-size: 20px;
+          margin-left: -5px;
+          border-style: none;
+          background-color:#FF3685;
+}
+.last-area{
+          height: 300px;
+          padding-top: 100px;
+          position: relative;
+          align-items: center;
+          justify-content: center;
+}
